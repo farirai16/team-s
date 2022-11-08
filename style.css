@@ -1,0 +1,141 @@
+html,
+body {
+   margin:0;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+    box-sizing: border-box;
+}
+
+p{
+    font-style: italic;
+    font-size: 14px;
+    margin: 5px;
+}
+
+/*.....HEADER......*/
+
+
+
+.navbar{
+  /*  background-color:#408faa; */
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+
+.navbar a {
+   
+    text-decoration: none;
+    color: white;
+   
+  }
+  
+li{
+   
+    list-style: none;
+    display: inline;
+   
+}
+
+/*
+.search-input{
+    border: 2px solid grey;
+    border-radius: 5%;
+    width: 200px;
+}
+*/
+
+/*.....MAIN......*/
+main{
+   
+    background-color: #82b5c7;
+}
+
+#title{
+    display:block;
+    width:100%;
+    color: #f1f1f1;
+}
+
+.container{   
+      
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+
+img{
+   border: solid 1px #408faa; 
+   border-radius: 3px;
+   width: 100%;
+   transform: scale(1);
+   transition: .3s ease-in-out; 
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; 
+    
+}
+
+img:hover{
+    transform: scale(0.9);  
+} 
+
+
+.col{
+   background-color: #fffcf7;
+    margin:3px;
+    padding: 12px;
+    border-radius: 8px; 
+    transform: scale(1);
+    transition: .3s ease-in-out; 
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; 
+}
+
+.col:hover{
+    transform: scale(1.01);  
+} 
+
+
+
+.quotes{
+    /*border: solid 3px black;*/
+   
+    display: block;
+    width: 400px;
+    margin: 30px auto;
+    padding-top: 5px;
+   
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+
+
+/*.....FOOTER......*/
+
+footer{
+    
+    background-color: #123463;
+    text-align: center;
+    padding: 30px 0;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    margin: 0 20px;
+}
